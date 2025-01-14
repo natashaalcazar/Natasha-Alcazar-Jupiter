@@ -1,0 +1,101 @@
+#name-header {
+    font-family: "Faculty Glyphic", serif;
+    font-size: 3.5rem;
+    text-align: center;
+    color:rgba(39, 199, 235, 0.913);
+    text-shadow: 2px 3px 1px rgba(53, 47, 114, 0.623);
+    padding-top: 10px ;
+    margin-top: 0;
+    background-color: rgba(160, 216, 253, 0.646);
+    padding: 15px 30px;
+    position: relative;
+    top: -119px;
+    max-width: 58vw ;
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+body {
+    margin: 0;
+    padding-top: 120px;
+    background-color:hsl(222, 35%, 17%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+#about h2 {
+    margin-left: 50px;
+    margin-bottom: 3px;
+    position: relative;
+    top: 0;
+}
+#experience h2 {
+    margin-left: 500px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+
+h2 {
+    font-size: 2rem;
+    font-weight: 100;
+    background-color: rgba(224, 224, 246, 0.943);
+    text-align:center;
+    border-radius: 30px;
+    padding: 15px 50px;
+    width: auto;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 20px auto;
+    color:rgba(30, 100, 206, 0.879)
+}
+#about, #experience, #connect {
+    padding: 0 15px;
+    margin-top: 40px;
+}
+p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+    font-weight:300;
+    text-align: center;
+    background-color: rgba(204, 139, 200, 0.566);
+    padding: 20px;
+    height: 200px;
+    width: 550px;
+    border: 4px solid rgb(132, 242, 248);
+    border-radius: 9%;
+    color:rgb(208, 201, 245);
+    margin: auto;
+    margin-left: 500px;
+}
+.styled-blocks li {
+    display: block;
+    border: 2px solid rgb(99, 242, 248);
+    padding: 15px;
+    margin: 10px 0;
+    background-color: rgba(166, 214, 213, 0.753);
+    width: 280px;
+    word-wrap: break-word;
+    color:rgb(21, 7, 89);
+    margin-left: 60px;
+    font-size: 1.2rem;
+}
+#connect ul {
+    list-style-type: none;
+    padding: 0;
+}
+#connect li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 5%;
+}
+#connect img {
+    width: 30px;
+    height: auto;
+    transition: transform 0.3s;;
+}
+#connect img:hover {
+    transform: scale(1.2);
+}
